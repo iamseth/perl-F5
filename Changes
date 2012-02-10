@@ -1,0 +1,41 @@
+Revision history for Luna
+
+0.01    Wed Jan 25 16:46:33 CST 2012
+        First version, released on an unsuspecting world.
+
+0.02	Thu Jan 26 00:23:10 CST 2012
+	
+	* Added create_pool function
+
+0.03	Sat Jan 28 17:35:58 CST 2012
+	
+	* re-factored request to be more concise
+
+0.04	Tue Feb  7 12:41:59 CST 2012
+	
+	* add_static_route subroutine added
+
+		- Adds the specified static route entries to the route table.
+
+	* delete_static_route subroutine added
+		
+		- Deletes the specified static route entries from the route.
+
+	* route_exists subroutine added
+
+		- Returns true if a route exists for the given IP
+
+	* fetch_static_routes subroutine added
+
+		- Returns a list of hashes of all static routes in balancer.
+
+1.0	Tue Feb  7 17:54:45 CST 2012
+
+	* Major release time! Lots of new features including checking to see if LB is active.
+
+	* Re-factored some code to remove any SF specific stuff from here.
+
+1.1	
+
+	* Added create_virtual_server and remove_virtual_server functionality
+
