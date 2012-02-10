@@ -664,7 +664,7 @@ Creates or updates virtual servers from the specified resources.
     my $name = 'aaa-justtesting';
     my $address = '10.0.0.5';
     my $port = 5555;
-    my $pool = 'na1-upg02-pool';
+    my $pool = 'mypool';
 
     $f5->create_virtual_server($name, $address, $port, $pool));
 
